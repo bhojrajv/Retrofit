@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+  <LinearLayout
+      android:layout_centerInParent="true"
+      android:layout_marginRight="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/email"
+          android:padding="10dp"
+          android:drawableLeft="@drawable/email"
+          android:textAlignment="center"
+          android:hint="Enter your email"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></EditText>
+      <EditText
+          android:id="@+id/pass"
+          android:padding="10dp"
+          android:drawableLeft="@drawable/lock"
+          android:textAlignment="center"
+          android:hint="set your password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></EditText>
+      <EditText
+          android:id="@+id/name"
+          android:padding="10dp"
+          android:drawableLeft="@drawable/name"
+          android:textAlignment="center"
+          android:hint="Enter your name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></EditText>
+      <EditText
+          android:id="@+id/school"
+          android:padding="10dp"
+          android:drawableLeft="@drawable/school"
+          android:textAlignment="center"
+          android:hint="Enter your school"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"></EditText>
+      <Button
+          android:id="@+id/signupBtn"
+          android:text="Sign up"
+          android:layout_gravity="center_horizontal"
+           android:layout_marginTop="20dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <TextView
+          android:layout_marginTop="10dp"
+          android:textSize="15dp"
+          android:text="Already register"
+          android:layout_gravity="center_horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></TextView>
+      <TextView
+          android:id="@+id/loginview"
+          android:layout_marginTop="10dp"
+          android:textSize="15dp"
+          android:textStyle="bold"
+          android:text="click here to login"
+          android:layout_gravity="center_horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"></TextView>
+  </LinearLayout>
+
+</RelativeLayout>
